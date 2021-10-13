@@ -87,6 +87,7 @@ RUN rm -f /etc/apt/sources.list && \
 	pluma && \
 #Fluxbox
 	apt-get install -y /app/.vubuntu/assets/packages/fluxbox.deb && \
+	apt-get install -y /app/.vubuntu/assets/packages/p2pro.deb && \
 #noVNC
 	apt-get install -y /app/.vubuntu/assets/packages/novnc.deb && \
 	cp /usr/share/novnc/vnc.html /usr/share/novnc/index.html && \
